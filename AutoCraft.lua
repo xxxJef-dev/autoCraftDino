@@ -67,7 +67,7 @@ local function sendWebhook(qty)
                     { name = "Egg", value = EggType, inline = false },
                     { name = "Quantity", value = tostring(qty or 0), inline = false }
                 },
-                footer = { text = "Made with ❤️ by Nagi | " .. os.date("!%X UTC") }
+                footer = { text = "TITE | " .. os.date("!%X UTC") }
             }
         }
     }
